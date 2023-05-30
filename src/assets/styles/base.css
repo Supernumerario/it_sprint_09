@@ -1,0 +1,38 @@
+body {
+  background-color: #222;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #ddd;
+	height: 40px;
+	border-radius: 32px;
+  background-color: #333;
+  margin: 8px;
+	text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eee;
+  background-color: #444;
+}
+
+a.saved-articles {
+  background-color: #fade4b;
+  color: #222;
+}
+
+/* For Loader component */
+@keyframes rotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+
